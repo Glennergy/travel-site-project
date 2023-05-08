@@ -1,5 +1,7 @@
 * {
   font-family: verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Variables */
@@ -12,17 +14,28 @@ li {
   list-style: none;
 }
 
+.section__header {
+  color: #335576;
+}
+
 /* CSS for Navigation */
 .navbar {
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  height: 50px;
 }
 .navbar__logo {
   color: #335576;
 }
 .navbar__cont--left {
   margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navbar__cont--right {
   display: flex;
@@ -45,4 +58,21 @@ li {
   display: inline-block;
   border-bottom: 2px solid #DB7A4E;
   padding: 0 0 10px 0;
+}
+
+.hero {
+  background-color: #FEFAF5;
+  height: 400px;
+}
+
+.recommendations {
+  height: 400px;
+}
+
+footer {
+  height: 300px;
+  background-color: #FEFAF5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=global.css.map */

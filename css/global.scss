@@ -1,11 +1,15 @@
 * {
   font-family: verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Variables */
 
 $primary-color1: #335576;
-$primary-color2: #DB7A4E;
+$primary-color2: #FEFAF5;
+$primary-color3: #DB7A4E;
+
 
 
 /* Remove decorations from a tags and list items*/
@@ -18,20 +22,32 @@ li {
   list-style: none;
 }
 
+.section__header{
+  color: $primary-color1;
+}
+
 /* CSS for Navigation */
 
 .navbar {
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  height: 50px;
 
   &__logo {
     color: $primary-color1;
+    
   }
 
   &__cont {
     &--left {
       margin-left: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     &--right {
@@ -60,10 +76,27 @@ li {
       @extend .navbar__link;
       color: #000;
       display: inline-block;
-      border-bottom: 2px solid #DB7A4E;
+      border-bottom: 2px solid $primary-color3;
       padding: 0 0 10px 0 ;
       
     }
   }
 }
+}
+
+.hero{
+  background-color: $primary-color2;
+  height: 400px;
+}
+
+.recommendations{
+    height: 400px;
+}
+
+footer{
+  height: 300px;
+  background-color: $primary-color2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
