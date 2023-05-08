@@ -16,19 +16,33 @@ li {
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .navbar__logo {
   color: #335576;
+}
+.navbar__cont--left {
+  margin-left: 70px;
 }
 .navbar__cont--right {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 70px;
 }
 .navbar__menu {
   display: inline;
 }
-.navbar__link {
+.navbar__link, .navbar__link__content--current {
   display: inline-block;
+  padding: 0 20px 0 20px;
+}
+.navbar__link__content {
+  color: #000;
+}
+.navbar__link__content--current {
+  color: #000;
+  display: inline-block;
+  border-bottom: 2px solid #DB7A4E;
+  padding: 0 0 10px 0;
 }/*# sourceMappingURL=global.css.map */

@@ -5,6 +5,8 @@
 /* Variables */
 
 $primary-color1: #335576;
+$primary-color2: #DB7A4E;
+
 
 /* Remove decorations from a tags and list items*/
 
@@ -21,7 +23,7 @@ li {
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 
   &__logo {
     color: $primary-color1;
@@ -29,12 +31,14 @@ li {
 
   &__cont {
     &--left {
+      margin-left: 70px;
     }
 
     &--right {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-right: 70px;
     }
   }
 
@@ -44,5 +48,22 @@ li {
 
   &__link {
     display: inline-block;
+    padding: 0 20px 0 20px;
+
+ 
+
+  &__content{
+
+    color: #000;
+
+    &--current{
+      @extend .navbar__link;
+      color: #000;
+      display: inline-block;
+      border-bottom: 2px solid #DB7A4E;
+      padding: 0 0 10px 0 ;
+      
+    }
   }
+}
 }
