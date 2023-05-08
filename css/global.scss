@@ -1,0 +1,48 @@
+* {
+  font-family: verdana, sans-serif;
+}
+
+/* Variables */
+
+$primary-color1: #335576;
+
+/* Remove decorations from a tags and list items*/
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* CSS for Navigation */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  &__logo {
+    color: $primary-color1;
+  }
+
+  &__cont {
+    &--left {
+    }
+
+    &--right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__menu {
+    display: inline;
+  }
+
+  &__link {
+    display: inline-block;
+  }
+}

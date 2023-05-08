@@ -1,0 +1,34 @@
+* {
+  font-family: verdana, sans-serif;
+}
+
+/* Variables */
+/* Remove decorations from a tags and list items*/
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* CSS for Navigation */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navbar__logo {
+  color: #335576;
+}
+.navbar__cont--right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__menu {
+  display: inline;
+}
+.navbar__link {
+  display: inline-block;
+}/*# sourceMappingURL=global.css.map */
