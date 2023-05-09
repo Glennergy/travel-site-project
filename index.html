@@ -14,35 +14,118 @@
       <div class="navbar__cont--right">
         <ul class="navbar__menu">
           <li class="navbar__link">
-            <a class="navbar__link__content--current" href="./index.html">Home</a>
+            <a class="navbar__link__content--current" href="./index.html"
+              >Home</a
+            >
           </li>
           <li class="navbar__link">
-            <a class="navbar__link__content" href="./pages/hawaii.html">Hawaii</a>
+            <a class="navbar__link__content" href="./pages/hawaii.html"
+              >Hawaii</a
+            >
           </li>
           <li class="navbar__link">
-            <a class="navbar__link__content" href="./pages/iceland.html">Iceland</a>
+            <a class="navbar__link__content" href="./pages/iceland.html"
+              >Iceland</a
+            >
           </li>
           <li class="navbar__link">
-            <a class="navbar__link__content" href="./pages/greece.html">Greece</a>
+            <a class="navbar__link__content" href="./pages/greece.html"
+              >Greece</a
+            >
           </li>
         </ul>
       </div>
     </nav>
     <section class="hero">
-      <h1>Hero section</h1>
+      <div class="hero__left">
+        <h1>Travelling Comes With Endless Discoveries</h1>
+        <p>
+          Don't let your dreams be just dreams. Experience the world by booking
+          a vacation with us now.
+        </p>
+        <a class="hero__button" href="#"> Get Started</a>
+      </div>
+      <div class="hero__right">
+        <img
+          class="hero__image"
+          src="./assets/images/hero.png"
+          alt="Hero picture"
+        />
+      </div>
     </section>
     <main class="recommendations">
-      <h3 class="section__header">Recommendations</h3>
+      <h3 class="recommendations__header">Recommendations</h3>
+      <div class="recommendations__container">
+        <a class="recommendations__container__link" href="./pages/hawaii.html">
+          <div class="recommendations__card recommendations__card--hawaii">
+            <h3 class="recommendations__card__name">Hawaii</h3>
+          </div>
+        </a>
+        <a class="recommendations__container__link" href="./pages/iceland.html">
+          <div class="recommendations__card recommendations__card--iceland">
+            <h3 class="recommendations__card__name">Iceland</h3>
+          </div>
+        </a>
+        <a class="recommendations__container__link" href="./pages/greece.html">
+          <div class="recommendations__card recommendations__card--greece">
+            <h3 class="recommendations__card__name">Greece</h3>
+          </div>
+        </a>
+      </div>
     </main>
     <footer class="footer">
-      <div class="footer__contact">
-        <h3 class="section__header">Contact</h3>
+      <div class="footer__section">
+        <h3 class="footer__section__header">Contact</h3>
+        <div class="footer__section__contact">
+          <p class="footer__section__subtitle">Email</p>
+          <p class="footer__section__subtext">info@travelsite.com</p>
+        </div>
       </div>
-      <div class="footer__hours">
-        <h3 class="section__header">Hours</h3>
+      <div class="footer__section">
+        <h3 class="footer__section__header">Hours</h3>
+        <div class="footer__section__hours">
+          <div class="footer__section__hours__div">
+            <p class="footer__section__subtitle">Monday-Friday</p>
+            <p class="footer__section__subtext">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer__section__hours__div">
+            <p class="footer__section__subtitle">Saturday</p>
+            <p class="footer__section__subtext">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer__section__hours__div">
+            <p class="footer__section__subtitle">Sunday</p>
+            <p class="footer__section__subtext">Closed</p>
+          </div>
+        </div>
       </div>
-      <div class="footer__social">
-        <h3 class="section__header">Social</h3>
+      <div class="footer__section">
+        <h3 class="footer__section__header">Social</h3>
+        <div class="footer__section__social">
+          <a
+            class="footer__section__social__link"
+            href="https://www.instagram.com"
+            ><img
+              class="footer__section__icon"
+              src="./assets/icon-instagram.png"
+              alt="instagram"
+          /></a>
+          <a
+            class="footer__section__social__link"
+            href="https://www.facebook.com"
+            ><img
+              class="footer__section__icon"
+              src="./assets/icon-facebook.png"
+              alt="facebook"
+          /></a>
+          <a
+            class="footer__section__social__link"
+            href="https://www.twitter.com"
+            ><img
+              class="footer__section__icon"
+              src="./assets/icon-twitter.png"
+              alt="twitter"
+          /></a>
+        </div>
       </div>
     </footer>
   </body>
