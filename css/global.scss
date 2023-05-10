@@ -35,6 +35,10 @@ li {
   padding: 0;
   height: 50px;
 
+  h3 {
+    font-size: 24px;
+  }
+
   &__logo {
     color: $primary-color1;
   }
