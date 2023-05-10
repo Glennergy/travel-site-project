@@ -3,7 +3,8 @@
 .hero {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   background-color: #fefaf5;
 }
 .hero__left {
@@ -11,6 +12,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  padding-left: 10rem;
 }
 .hero__left h1 {
   width: 400px;
@@ -18,8 +20,9 @@
   color: #335576;
 }
 .hero__left p {
-  width: 600px;
+  width: 400px;
   margin: 20px 0 20px 0;
+  font-size: 14px;
 }
 .hero__button {
   background-color: #db7a4e;
@@ -36,7 +39,7 @@
   width: 600px;
 }
 .hero__image {
-  max-height: 90%;
+  max-height: 60%;
 }
 
 /* Recommendations Section*/
@@ -48,6 +51,8 @@
 }
 .recommendations__header {
   color: #335576;
+  width: 40px;
+  display: inline;
   position: relative;
   top: 5px;
   left: 5%;

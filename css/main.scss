@@ -9,7 +9,8 @@ $primary-color3: #db7a4e;
 .hero {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   background-color: $primary-color2;
 
   &__left {
@@ -17,6 +18,7 @@ $primary-color3: #db7a4e;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    padding-left: 10rem;
 
     h1 {
       width: 400px;
@@ -25,10 +27,12 @@ $primary-color3: #db7a4e;
     }
 
     p {
-      width: 600px;
+      width: 400px;
       margin: 20px 0 20px 0;
+      font-size: 14px;
     }
   }
+
   &__button {
     background-color: $primary-color3;
     padding: 10px 20px;
@@ -46,7 +50,7 @@ $primary-color3: #db7a4e;
   }
 
   &__image {
-    max-height: 90%;
+    max-height: 60%;
   }
 }
 
@@ -59,6 +63,8 @@ $primary-color3: #db7a4e;
 
   &__header {
     color: $primary-color1;
+    width: 40px;
+    display: inline;
     position: relative;
     top: 5px;
     left: 5%;

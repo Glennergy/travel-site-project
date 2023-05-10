@@ -79,6 +79,7 @@ li {
 
 .footer {
   height: 150px;
+  width: 100%;
   background-color: $primary-color2;
   display: flex;
   flex-direction: row;
@@ -97,16 +98,18 @@ li {
 
     &__subtitle {
       color: $primary-color3;
-      display: inline-block;
+      display: inline;
       font-weight: 200;
       font-size: 12px;
       padding-right: 100px;
       margin-top: 5px;
+      width: auto;
+      white-space: nowrap;
     }
 
     &__subtext {
-      display: inline-block;
-      width: 200px;
+      display: inline;
+      width: auto;
       font-size: 14px;
       color: $primary-color1;
       margin-top: 5px;
@@ -116,7 +119,7 @@ li {
       display: flex;
       flex-direction: column;
       justify-content: left;
-      width: 300px;
+      width: 150px;
     }
 
     &__hours {
@@ -124,6 +127,7 @@ li {
       flex-direction: row;
       justify-content: left;
       width: 500px;
+      padding-left: 10px;
 
       &__div {
         display: flex;
@@ -133,7 +137,7 @@ li {
     }
 
     &__social {
-      width: 300px;
+      width: 150px;
       display: flex;
       justify-content: left;
       align-items: center;
