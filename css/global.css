@@ -49,7 +49,7 @@ li {
 .navbar__menu {
   display: inline;
 }
-.navbar__link, .navbar__link__content--current {
+.navbar__link, .navbar__link__content:hover, .navbar__link__content--current {
   display: inline-block;
   padding: 0 20px 0 20px;
 }
@@ -59,7 +59,13 @@ li {
 .navbar__link__content--current {
   color: #000;
   display: inline-block;
-  border-bottom: 2px solid #db7a4e;
+  border-bottom: 3px solid #db7a4e;
+  padding: 0 0 10px 0;
+}
+.navbar__link__content:hover {
+  color: #000;
+  display: inline-block;
+  border-bottom: 3px solid #db7a4e;
   padding: 0 0 10px 0;
 }
 
